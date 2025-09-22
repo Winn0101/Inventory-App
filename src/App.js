@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const API_ENDPOINT = 'https://5lg4tvmik9.execute-api.us-east-1.amazonaws.com/Prod'; // Replace with your new API Gateway endpoint
+const API_ENDPOINT = 'https://zqiko4dzkl.execute-api.us-east-1.amazonaws.com/Prod'; // Replace with your new API Gateway endpoint
 
 const App = () => {
   const [items, setItems] = useState([]);
