@@ -4,7 +4,7 @@ import { Package, Plus, Trash2, Edit3, AlertCircle, X, ShoppingCart, Search, Fil
 // Main App component
 function App() {
   const [products, setProducts] = useState([]);
-  const apiBaseUrl = "https://tft4vyo5rj.execute-api.us-east-1.amazonaws.com/Prod";
+  const apiBaseUrl = "https://9l33itbmw9.execute-api.us-east-1.amazonaws.com/Prod";
   
   // State for the product creation form
   const [name, setName] = useState('');
